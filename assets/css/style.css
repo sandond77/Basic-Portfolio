@@ -2,7 +2,16 @@ body {
 	background-image: url("../images/wallpaper.png");
 }
 
+#container {
+	padding:125px 100px 100px 100px;
+	margin-bottom: 25px;
+	width:960px;
+	height:100%;
+}
+
 .top {
+	position:absolute;
+	top:0;
 	height:80px;
 	width:100%;
 	background-color: #ffffff;
@@ -61,6 +70,7 @@ h2{
 	color:#4aaaa5;
 	font-size: 28px;
 	padding: 25px 20px 25px 20px;
+	font-weight:bold;
 }
 
 #intro {
@@ -68,6 +78,23 @@ h2{
 	width:650px;
 	background-color: #ffffff;
 	border:solid 1px #dddddd;
+}
+
+#content {
+	margin:0px 20px 0px 20px;
+	border-top:solid 1px #e6e6e6;
+}
+
+#profile {
+	float:left;
+	margin:20px 20px 0px 0px;
+}
+
+p {	
+	margin:20px 0px 20px 0px;
+	font-size:14px;
+	line-height: 150%;
+	letter-spacing: 1px;
 }
 
 h3{
@@ -115,8 +142,14 @@ h3{
 }
 
 .footer {
+	position:relative;
+	top:25px;
+	background:#666666;
+	color:#ffffff;
 	clear:both;
 	width:100%;
-	height:80px;
 	text-align:center;
+	padding:32px 0px 32px 0px;
+	border-top:solid 5px #4aaaa5;
+	margin-top:25px;
 }
