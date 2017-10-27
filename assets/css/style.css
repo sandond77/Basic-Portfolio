@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-	padding:125px 100px 100px 100px;
+	padding:125px 100px 0px 100px;
 	margin-bottom: 25px;
 	width:960px;
 	height:100%;
@@ -60,12 +60,6 @@ h1 {
 	border-right:solid 2px #e6e6e6;
 }
 
-#container {
-	padding:125px 100px 0px 100px;
-	width:960px;
-	height:100%;
-}
-
 h2{
 	color:#4aaaa5;
 	font-size: 28px;
@@ -82,7 +76,7 @@ h2{
 
 #content {
 	margin:0px 20px 0px 20px;
-	border-top:solid 1px #e6e6e6;
+	border-top:solid 4px #e6e6e6;
 }
 
 #profile {
@@ -141,9 +135,40 @@ h3{
 	left:193px;
 }
 
+#form{
+	margin:20px 0px 20px 0px;
+}
+
+#button{
+	padding:10px 20px 10px 20px;
+	margin-top:10px;
+	background:#4aaaa5;
+	color:#ffffff;
+	border:0;
+	font-size:16px;
+}
+
+.formlabels{
+	padding:15px 0px 5px 0px;
+	font-size:18px;
+	color: #4aaaa5;
+}
+
+.textbox{
+	width: 605px;
+	height:24px;
+}
+
+#textbox2{
+	width: 605px;
+	height: 100px;
+	resize: both;
+	overflow: auto;
+}
+
 .footer {
-	position:relative;
-	top:25px;
+	position:fixed;
+	bottom:0;
 	background:#666666;
 	color:#ffffff;
 	clear:both;
