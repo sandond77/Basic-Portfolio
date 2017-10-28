@@ -3,6 +3,8 @@ body {
 }
 
 #container {
+	position:absolute;
+	top:0;
 	padding:125px 100px 0px 100px;
 	margin-bottom: 25px;
 	width:960px;
@@ -38,6 +40,7 @@ h1 {
 	font-size:20px;
 	color:#777777;
 	padding:30px;
+	z-index:3;
 }
 
 /*To clear hyperlink decorations*/
@@ -163,11 +166,12 @@ h3{
 	width: 605px;
 	height: 100px;
 	resize: both;
-	overflow: auto;
+	overflow: scroll;
 }
 
 .footer {
-	position:fixed;
+	display:block;
+	position:absolute;
 	bottom:0;
 	background:#666666;
 	color:#ffffff;
